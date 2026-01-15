@@ -2,7 +2,7 @@ export const registry = {
     button:{
         files:[
             {
-                from :"packages/ui/button.tsx",
+                from :"packages/ui/src/components/button/button.tsx",
                 to:"components/ui/button.tsx"
             },
         ],

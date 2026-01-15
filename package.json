@@ -1,13 +1,13 @@
 {
   "name": "yoru-ui",
   "version": "1.0.0",
-  "private":true,
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev":"turbo dev",
-    "build":"turbo build",
-    "lint":"turbo lint",
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,5 +17,8 @@
   "devDependencies": {
     "@types/react": "^19.2.8",
     "turbo": "^2.7.4"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1"
   }
 }
